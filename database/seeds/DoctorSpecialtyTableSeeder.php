@@ -1,0 +1,121 @@
+<?php
+
+use App\DoctorSpecialty;
+use Illuminate\Database\Seeder;
+
+class DoctorSpecialtyTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+
+        $specialties = array(
+            array('specialty' => 'Allergy And Immunology'),
+            array('specialty' => 'Allergy Specialist'),
+            array('specialty' => 'Lactation (Breast Feeding) Consultant'),
+            array('specialty' => 'Cardiac Electrophysiologist'),
+            array('specialty' => 'Cardiaothoracic Surgeon'),
+            array('specialty' => 'Cardiologist'),
+            array('specialty' => 'Chest Physician'),
+            array('specialty' => 'Chest Specialist'),
+            array('specialty' => 'Child Psychiatrist'),
+            array('specialty' => 'Clinical Hypnotist'),
+            array('specialty' => 'Consultant Dental Surgeon And Prosthodontist'),
+            array('specialty' => 'Consultant Judicial Medicine'),
+            array('specialty' => 'Counseling Psychologist'),
+            array('specialty' => 'Counselling'),
+            array('specialty' => 'Dental Surgeon'),
+            array('specialty' => 'Dermatologist'),
+            array('specialty' => 'Dermatologist and Hair Clinic'),
+            array('specialty' => 'Dietician'),
+            array('specialty' => 'Dietician & Nutrition'),
+            array('specialty' => 'Embryologist'),
+            array('specialty' => 'Endocrinologist/Diabetologist'),
+            array('specialty' => 'ENT Surgeon'),
+            array('specialty' => 'EYE Surgeon'),
+            array('specialty' => 'Family/General Counceller'),
+            array('specialty' => 'Family Physician'),
+            array('specialty' => 'Gastrointestinal Surgeon'),
+            array('specialty' => 'General'),
+            array('specialty' => 'Geneticist'),
+            array('specialty' => 'Genito Urinary Surgeon'),
+            array('specialty' => 'Gynaecologist'),
+            array('specialty' => 'Gynaecologist And Consultant In Fertility'),
+            array('specialty' => 'Haematologist'),
+            array('specialty' => 'Hepatobiliary Surgeon'),
+            array('specialty' => 'Immunologist'),
+            array('specialty' => 'Kidney Transplant Surgeon'),
+            array('specialty' => 'Medical and Clinical Geneticist'),
+            array('specialty' => 'Medical Gastroenterologist'),
+            array('specialty' => 'Medical Microbiologist'),
+            array('specialty' => 'Neonatal Paediatrician'),
+            array('specialty' => 'Nephrologist'),
+            array('specialty' => 'Nephrologist And General Physician'),
+            array('specialty' => 'Neuro Physician'),
+            array('specialty' => 'Neuro Physiologist'),
+            array('specialty' => 'Neuro Surgeon'),
+            array('specialty' => 'Nutrition Specialist'),
+            array('specialty' => 'Nutritionist'),
+            array('specialty' => 'Occupational Medicine'),
+            array('specialty' => 'Occupational Therapist'),
+            array('specialty' => 'Oncological Surgeon'),
+            array('specialty' => 'Oncologist - Cancer Specialist'),
+            array('specialty' => 'Ophthalmologist'),
+            array('specialty' => 'Oral & Maxillofacial Surgeon'),
+            array('specialty' => 'Oral Dental & Maxillofacial Surgeon'),
+            array('specialty' => 'Orthodontist'),
+            array('specialty' => 'Orthopaedic Surgeon'),
+            array('specialty' => 'Paediatric Cardiologist'),
+            array('specialty' => 'Paediatric Dermatologist'),
+            array('specialty' => 'Paediatric Nephrologist'),
+            array('specialty' => 'Paediatric Neurologist'),
+            array('specialty' => 'Paediatric Orthopaedic Surgeon'),
+            array('specialty' => 'Paediatric Surgeon'),
+            array('specialty' => 'Paediatric Vaccinologist'),
+            array('specialty' => 'Paediatrician'),
+            array('specialty' => 'Paediatrics And Paediatric Neuro Disability'),
+            array('specialty' => 'Parasitologist'),
+            array('specialty' => 'Pathologist'),
+            array('specialty' => 'Pediatric Cardiac Surgeon'),
+            array('specialty' => 'Physician'),
+            array('specialty' => 'Physician & Endocrinologists/Diabetologist'),
+            array('specialty' => 'Physician & Endocrinologist'),
+            array('specialty' => 'Physician / Family Medicine'),
+            array('specialty' => 'Physician And Gastro Enterologists'),
+            array('specialty' => 'Physician And Immunologist'),
+            array('specialty' => 'Physiotherapist'),
+            array('specialty' => 'Plastic Surgeon'),
+            array('specialty' => 'Psychiatrist'),
+            array('specialty' => 'Psychological Counselling'),
+            array('specialty' => 'Psychologist'),
+            array('specialty' => 'Radiologists'),
+            array('specialty' => 'Respiratory Medicine'),
+            array('specialty' => 'Rheumatologist'),
+            array('specialty' => 'Venereologist (S.T.D)'),
+            array('specialty' => 'Speech And Language Therapist'),
+            array('specialty' => 'Speech Language Pathalogist And Audiologist'),
+            array('specialty' => 'Speech Pathologist/Therapist'),
+            array('specialty' => 'Speech Therapist'),
+            array('specialty' => 'Speech Therapist And Audiologist'),
+            array('specialty' => 'Sports Medicine'),
+            array('specialty' => 'Study Disorders And Counselling'),
+            array('specialty' => 'Sub Fertility Specialist'),
+            array('specialty' => 'Surgeon'),
+            array('specialty' => 'Thoracic Surgeon'),
+            array('specialty' => 'Transfusion Medicine'),
+            array('specialty' => 'Urologist'),
+            array('specialty' => 'Vaccinologist'),
+            array('specialty' => 'Vascular And Transplant Surgeon Liver And Kidney'),
+            array('specialty' => 'Vascular Surgeon'),
+            array('specialty' => 'Virologist'),
+            array('specialty' => 'Vitreoretinal Surgeon')
+        );
+
+        DoctorSpecialty::insert($specialties);
+
+    }
+}
